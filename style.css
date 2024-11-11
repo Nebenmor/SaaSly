@@ -1,0 +1,38 @@
+/* Colors */
+
+:root {
+    --text-white: #fff;
+    --text-blue: #14358A;
+    --text-light-gray: #E6E8EC;
+    --text-dark-gray: #68718B;
+    --background-color: #fff;
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    src: url(./Fonts/DM_Sans/static/DMSans-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    src: url(./Fonts/DM_Sans/static/DMSans-Regular.ttf);
+    font-weight: 400;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;  
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--background-color);
+    overflow-x: hidden;
+}
+
