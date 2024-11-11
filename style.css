@@ -161,7 +161,16 @@ body {
     text-decoration: none;
 }
 
+.inner-wrapper .hero-content .hero-buttons a.start-now {
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 135%;
+    color: var(--text-white);
 
+    padding: 20px 40px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #6A36FF, #AC5FE6);
+}
 
 .inner-wrapper .hero-content .hero-buttons a.trial {
     font-size: 1.8rem;
