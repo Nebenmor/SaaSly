@@ -129,3 +129,27 @@ body {
     margin: 80px 42px 120px; 
 }
 
+.inner-wrapper .hero-content h1 {
+    color: var(--text-white);
+    font-size: 6rem;
+    font-weight: 700;
+}
+
+.inner-wrapper .hero-content h1 span {
+    display: block;
+    text-align: center;
+    line-height: 110%;
+    letter-spacing: -3%;
+    padding-bottom: 24px;
+}
+
+.inner-wrapper .hero-content p span {
+    display: block;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: var(--text-light-gray);
+    line-height: 135%;
+    text-align: center;
+}
+
+
