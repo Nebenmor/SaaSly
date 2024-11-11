@@ -41,13 +41,13 @@ body {
     width: 100%;
     background-image: url('./images/BG-2.png');
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-position: top;
+    background-size: contain;
 }
 
 .page-background .wrapper {
     width: 100%;
-    max-width: 1400px;
+    max-width: 1440px;
     margin: 0 auto;
     padding: 0 170px;
 }
@@ -119,4 +119,13 @@ body {
     background: transparent;
 }
 
+/* Hero Section */
+.hero-section .inner-wrapper .hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+
+    margin: 80px 42px 120px; 
+}
 
