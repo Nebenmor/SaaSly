@@ -57,7 +57,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 21px;
+    padding-top: 25px;
 }
 
 .wrapper .desktop-nav .logo h2 {
@@ -120,13 +120,15 @@ body {
 }
 
 /* Hero Section */
+.hero-section .inner-wrapper {
+    margin: 80px 42px 120px; 
+}
+
 .hero-section .inner-wrapper .hero-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;   
-
-    margin: 80px 42px 120px; 
 }
 
 .inner-wrapper .hero-content h1 {
@@ -154,7 +156,7 @@ body {
 
 
 .inner-wrapper .hero-content .hero-buttons {
-    padding: 48px;
+    padding: 48px 0;
 }
 
 .inner-wrapper .hero-content a {
@@ -182,4 +184,10 @@ body {
     border: 1px solid #fff;
     border-radius: 10px;
     margin-left: 16px;
+}
+
+.hero-content .hero-image img {
+    width: 100%;
+    max-width: 1016px;
+    transform: translateY(95px);
 }
