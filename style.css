@@ -57,7 +57,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 25px;
+    padding-top: 30px;
 }
 
 .wrapper .desktop-nav .logo h2 {
@@ -121,7 +121,9 @@ body {
 
 /* Hero Section */
 .hero-section .inner-wrapper {
-    margin: 80px 42px 120px; 
+    margin: 80px 42px 0;
+    width: 100%;
+    max-width: 1016px; 
 }
 
 .hero-section .inner-wrapper .hero-content {
@@ -189,5 +191,37 @@ body {
 .hero-content .hero-image img {
     width: 100%;
     max-width: 1016px;
-    transform: translateY(95px);
+    transform: translateY(-25px);
+}
+
+.hero-section .brands {
+    width: 100%;
+    height: 48px;
+}
+
+.hero-section .brands img {
+    margin-right: 30px;
+}
+
+.hero-section .brands img:nth-last-child(1) {
+    margin-right: 0;
+}
+
+/* Animation */
+/* Desktop Nav Animation */
+.wrapper .desktop-nav {
+    animation: fadeDown 2000ms forwards;
+    opacity: 0;
+}
+
+@keyframes fadeDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
