@@ -27,7 +27,7 @@
 }
 
 html {
-    font-size: 62.5%;  
+    font-size: 62.5%; /* Makes 1rem = 10px */ 
 }
 
 body {
@@ -35,4 +35,88 @@ body {
     background: var(--background-color);
     overflow-x: hidden;
 }
+
+/* Container */
+.page-background {
+    width: 100%;
+    background-image: url('./images/BG-2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.page-background .wrapper {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 170px;
+}
+
+/* Header style */
+.wrapper .desktop-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 21px;
+}
+
+.wrapper .desktop-nav .logo h2 {
+    font-size: 3.2rem;
+    color: var(--text-white);
+    font-weight: 700;
+}
+
+.wrapper .desktop-nav .menu-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper .desktop-nav .menu-items li {
+    list-style-type: none;
+    padding: 0 20px;
+}
+
+.wrapper .desktop-nav .menu-items a {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--text-white);
+    text-decoration: none;
+}
+
+.arrow-down {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--text-white);
+}
+
+.wrapper .desktop-nav .menu-items a.active {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+/* header buttons */
+.header-buttons a {
+    text-decoration: none;
+
+}
+
+.header-buttons .button_sign-in {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--text-white);
+}
+
+.header-buttons .button_sign-up {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--text-white);
+    margin-left: 16px;
+
+    padding: 12px 24px;
+    border: 1px solid var(--text-white);
+    border-radius: 10px;
+    background: transparent;
+}
+
 
