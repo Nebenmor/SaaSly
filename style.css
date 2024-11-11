@@ -153,3 +153,24 @@ body {
 }
 
 
+.inner-wrapper .hero-content .hero-buttons {
+    padding: 48px;
+}
+
+.inner-wrapper .hero-content a {
+    text-decoration: none;
+}
+
+
+
+.inner-wrapper .hero-content .hero-buttons a.trial {
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 135%;
+    color: var(--text-white);
+
+    padding: 20px 40px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin-left: 16px;
+}
