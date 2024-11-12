@@ -239,5 +239,32 @@ span {
     padding: 80px 64px;
 }
 
+.features-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 110px;
+    flex: 1;
+}
 
+.features-description {
+    padding: 50px 0;
+}
 
+.features-description i.timer {
+    color: var(--text-white);
+    padding: 16px;
+    background: linear-gradient(to right, #0097FE, #14358A);
+    border-radius: 10px;
+    font-size: 1.8rem;
+    margin: 50px 0 24px 0;
+}
+
+.features-description h3 {
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: var(--text-light-blue);
+    line-height: 105%;
+    margin-bottom: 13px;
+}
+    
