@@ -268,3 +268,16 @@ span {
     margin-bottom: 13px;
 }
     
+.features-description p {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 140%;
+    color: var(--text-dark-gray);   
+}
+
+.features-content img {
+    width: 100%;
+    max-width: 509px;
+}
+
+
