@@ -3,6 +3,7 @@
 :root {
     --text-white: #fff;
     --text-blue: #14358A;
+    --text-light-blue: #006FBA;
     --text-light-gray: #E6E8EC;
     --text-dark-gray: #68718B;
     --background-color: #fff;
@@ -58,6 +59,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding-top: 30px;
+    
 }
 
 .wrapper .desktop-nav .logo h2 {
@@ -137,17 +139,17 @@ body {
     color: var(--text-white);
     font-size: 6rem;
     font-weight: 700;
-}
-
-.inner-wrapper .hero-content h1 span {
-    display: block;
     text-align: center;
     line-height: 110%;
     letter-spacing: -3%;
     padding-bottom: 24px;
 }
 
-.inner-wrapper .hero-content p span {
+span {
+    display: block;
+}
+
+.inner-wrapper .hero-content p {
     display: block;
     font-size: 1.8rem;
     font-weight: 400;
@@ -225,3 +227,4 @@ body {
         transform: translateY(0);
     }
 }
+
