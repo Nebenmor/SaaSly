@@ -228,3 +228,16 @@ span {
     }
 }
 
+/* Features Section */
+.features-section h2  {
+    font-size: 4.8rem;
+    font-weight: 700;
+    line-height: 105%;
+    letter-spacing: -3%;
+    color: var(--text-blue);
+    text-align: center;
+    padding: 80px 64px;
+}
+
+
+
