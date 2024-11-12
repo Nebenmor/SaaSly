@@ -325,3 +325,12 @@ a.btn_Learn-More {
     transform: translateX(-138px);
 }
 
+.features-shape img.bottom-left {
+    width: 280px;
+    position: absolute;
+    top: 1575px;
+    left: 57px;
+    z-index: -10;
+
+    transform: translate(-120px, -50px);
+}
