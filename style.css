@@ -356,3 +356,50 @@ a.btn_Learn-More {
     padding-bottom: 64px;
 }
 
+.social-medias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 24px;
+    text-align: center;
+}
+
+.social-media {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 24px;
+    border-radius: 10px;
+}
+
+.social-media i.facebook,
+.social-media i.twitter,
+.social-media i.google {
+    color: var(--text-white);
+    font-size: 4rem;
+    padding: 8px;
+    border-radius: 10px;
+    text-align: center;
+    background: #006EEA;
+    margin-bottom: 24px;
+}
+
+.social-media h3 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: var(--text-light-blue);
+    line-height: 110%;
+    letter-spacing: -3%;
+}
+
+.social-media p {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 140%;
+    color: var(--text-dark-gray);
+    margin-bottom: 48px;
+}
+
+.social-media .social-button {
+    margin-bottom: 24px;
+}
+
+
