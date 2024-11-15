@@ -334,3 +334,15 @@ a.btn_Learn-More {
 
     transform: translate(-120px, -50px);
 }
+
+/* Social Media Section */
+.social-media-section-container {
+    width: 100%;
+    background: url('./images/social-media-background.png');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+
+    padding: 297px 270px;
+}
+
