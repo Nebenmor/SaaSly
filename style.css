@@ -346,3 +346,13 @@ a.btn_Learn-More {
     padding: 297px 270px;
 }
 
+.social-media-section h2 {
+    font-size: 4.8rem;
+    font-weight: 700;
+    line-height: 105%;
+    letter-spacing: -3%;
+    color: var(--text-white);
+    text-align: center;
+    padding-bottom: 64px;
+}
+
