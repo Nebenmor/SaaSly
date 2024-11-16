@@ -373,8 +373,7 @@ a.btn_Learn-More {
     margin-bottom: 24px;
 }
 
-.social-media h3,
-.article h3
+.social-media h3
  {
     font-size: 2.4rem;
     font-weight: 700;
@@ -412,6 +411,7 @@ section.articles-section {
 
 .article {
     box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.1);
+    position: relative;
 }
 
 .article .article-img {
@@ -425,4 +425,42 @@ section.articles-section {
 
 .article-description {
     padding: 24px;
+}
+
+/* .articles-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+.articles_learn-more {
+    text-align: center;
+    padding-top: 48px;
+    padding-bottom: 80px;
+}
+
+.article-label p {
+    padding: 4px 8px;
+    background-color: orange;
+    font-weight: 400;
+    font-size: 1.4rem;
+    display: inline-block;
+    color: var(--text-white);
+    border-radius: 5px;
+}
+
+.article-label {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    z-index: 10;
+}
+
+.article h3 {
+    font-size: 2.3rem;
+    font-weight: 700;
+    color: var(--text-light-blue);
+    padding-bottom: 12px;
+    line-height: 110%;
 }
