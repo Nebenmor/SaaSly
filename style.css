@@ -518,3 +518,34 @@ section.articles-section {
     margin-right: 22px;
 }
 
+.cta-buttons a.contact-us {
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding: 16px 32px;
+    border: 1px solid;
+    border-radius: 10px;
+    text-decoration: none;
+
+    position: relative;
+    background: transparent;
+}
+
+.cta-buttons a.contact-us::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: inherit; /* If you want rounded corners */
+    /* padding: 2px; Border width */
+    background: linear-gradient(45deg, #6A36FF, #AC5FE6);
+    -webkit-mask: 
+        linear-gradient(#fff 0 0) content-box, 
+        linear-gradient(#fff 0 0);
+    mask: 
+        linear-gradient(#fff 0 0) content-box, 
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+}
