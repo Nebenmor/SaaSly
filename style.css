@@ -493,3 +493,28 @@ section.articles-section {
 
     padding: 80px 422px 191px 364px;
 }
+.cta-section p {
+    color: #68718B;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 135%;
+    text-align: center;
+    padding-top: 48px;
+}
+
+.cta-buttons {
+    text-align: center;
+    margin-top: 48px;
+}
+
+.cta-buttons a.register-now {
+    color: var(--text-white);
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding: 16px 32px;
+    background: linear-gradient(to right, #6A36FF, #AC5FE6);
+    text-decoration: none;
+    border-radius: 10px;
+    margin-right: 22px;
+}
+
