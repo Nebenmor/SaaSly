@@ -482,3 +482,14 @@ section.articles-section {
     padding-bottom: 12px;
     line-height: 110%;
 }
+
+/* CTA Section */
+.cta-section {
+    width: 100%;
+    background: url('./images/BackgroundCTA.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding: 80px 422px 191px 364px;
+}
