@@ -65,12 +65,22 @@ body {
 }
 
 /* Header style */
+.desktop-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 20;
+
+    width: 100%;
+    background: var(--text-blue);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 0;
+}
+
 .wrapper .header-content {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding-top: 30px;
-    
+    align-items: center;    
 }
 
 .wrapper .header-content .logo h2 {
@@ -231,7 +241,7 @@ span {
 
 /* Animation */
 /* Desktop Nav Animation */
-.wrapper .header-content {
+.desktop-nav {
     animation: fadeDown 2000ms forwards;
     opacity: 0;
 }
