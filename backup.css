@@ -44,16 +44,19 @@ body {
     background-image: url('./images/BG-2.png');
     background-repeat: no-repeat;
     background-position: top;
-    background-size: contain;
+    background-size: cover;
 
 
     min-height: 100vh;
-    position: relative;
-    display: flex;
-    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -10;
+    /* display: flex;
+    flex-direction: column; */
 }
 
-.page-background .wrapper {
+.wrapper {
     width: 100%;
     max-width: 1440px;
     margin: 0 auto;
@@ -62,32 +65,50 @@ body {
 }
 
 /* Header style */
-.wrapper .desktop-nav {
+.desktop-nav {
+    position: fixed;
+    top: 5px;
+    left: 10%;
+    z-index: 20;
+
+    width: 80%;
+    background: var(--text-blue);
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: 3px 0 11px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+    /* width: calc(1440px - 340px); */
+
+    border-radius: 24px;
+}    
+
+.wrapper .header-content {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding-top: 30px;
-    
+    align-items: center;    
 }
 
-.wrapper .desktop-nav .logo h2 {
+.wrapper .header-content .logo a {
+    text-decoration: none;
+}
+
+.wrapper .header-content .logo h2 {
     font-size: 3.2rem;
     color: var(--text-white);
     font-weight: 700;
 }
 
-.wrapper .desktop-nav .menu-items {
+.wrapper .header-content .menu-items {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.wrapper .desktop-nav .menu-items li {
+.wrapper .header-content .menu-items li {
     list-style-type: none;
     padding: 0 20px;
 }
 
-.wrapper .desktop-nav .menu-items a {
+.wrapper .header-content .menu-items a {
     font-size: 1.6rem;
     font-weight: 400;
     color: var(--text-white);
@@ -101,7 +122,7 @@ body {
 }
 
 
-.wrapper .desktop-nav .menu-items a.active {
+.wrapper .header-content .menu-items a.active {
     font-size: 1.6rem;
     font-weight: 700;
 }
@@ -228,7 +249,7 @@ span {
 
 /* Animation */
 /* Desktop Nav Animation */
-.wrapper .desktop-nav {
+.desktop-nav {
     animation: fadeDown 2000ms forwards;
     opacity: 0;
 }
@@ -557,14 +578,12 @@ section.articles-section {
 }
 
 /* Footer Section */
-/* footer {
-    width: 100%;
-    background: url('./images/Background-Footer.png');
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
-
+footer {
+    position: relative;
+    top: -200px;
+    left: 0;
+    z-index: 10;
+}
 
 .footer-background {
     width: 100%;
@@ -572,7 +591,12 @@ section.articles-section {
     background-size: cover;
     background-position: center -100px;  /* Negative value moves image up */
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -10;
 }
 
 
@@ -588,11 +612,11 @@ section.articles-section {
     justify-content: space-between;
 }
 
-.footer-wrapper:first-child {
+.footer-container .logo {
     align-self: center;
 }
 
-.footer-wrapper .logo h2 {
+.footer-container .logo h2 {
     font-size: 3.2rem;
     font-weight: 700;
     line-height: 105%;
@@ -666,4 +690,3 @@ section.articles-section {
     width: 100%;
     max-width: 1104px;
 }
-
