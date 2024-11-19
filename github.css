@@ -44,28 +44,18 @@ body {
     background-image: url('./images/BG-2.png');
     background-repeat: no-repeat;
     background-position: top;
-    background-size: cover;
-
-
-    min-height: 100vh;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -10;
-    /* display: flex;
-    flex-direction: column; */
+    background-size: contain;
 }
 
-.wrapper {
+.page-background .wrapper {
     width: 100%;
     max-width: 1440px;
     margin: 0 auto;
     padding: 0 170px;
-    flex: 1;  /* Takes remaining space */
 }
 
 /* Header style */
-.wrapper .header-content {
+.wrapper .desktop-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -73,24 +63,24 @@ body {
     
 }
 
-.wrapper .header-content .logo h2 {
+.wrapper .desktop-nav .logo h2 {
     font-size: 3.2rem;
     color: var(--text-white);
     font-weight: 700;
 }
 
-.wrapper .header-content .menu-items {
+.wrapper .desktop-nav .menu-items {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.wrapper .header-content .menu-items li {
+.wrapper .desktop-nav .menu-items li {
     list-style-type: none;
     padding: 0 20px;
 }
 
-.wrapper .header-content .menu-items a {
+.wrapper .desktop-nav .menu-items a {
     font-size: 1.6rem;
     font-weight: 400;
     color: var(--text-white);
@@ -104,7 +94,7 @@ body {
 }
 
 
-.wrapper .header-content .menu-items a.active {
+.wrapper .desktop-nav .menu-items a.active {
     font-size: 1.6rem;
     font-weight: 700;
 }
@@ -153,6 +143,7 @@ body {
     font-weight: 700;
     text-align: center;
     line-height: 110%;
+    letter-spacing: -3%;
     padding-bottom: 24px;
 }
 
@@ -231,7 +222,7 @@ span {
 
 /* Animation */
 /* Desktop Nav Animation */
-.wrapper .header-content {
+.wrapper .desktop-nav {
     animation: fadeDown 2000ms forwards;
     opacity: 0;
 }
@@ -258,6 +249,7 @@ section h2  {
     font-size: 4.8rem;
     font-weight: 700;
     line-height: 105%;
+    letter-spacing: -3%;
     color: var(--text-blue);
     text-align: center;
     padding: 80px 0 64px 0;
@@ -355,8 +347,6 @@ a.btn_Learn-More {
     padding: 297px 270px;
 }
 
-
-
 .social-medias {
     display: flex;
     justify-content: center;
@@ -408,6 +398,7 @@ a.btn_Learn-More {
     font-weight: 700;
     color: var(--text-light-blue);
     line-height: 110%;
+    letter-spacing: -3%;
     margin-bottom: 12px;
 }
 
@@ -560,12 +551,14 @@ section.articles-section {
 }
 
 /* Footer Section */
-footer {
-    position: relative;
-    top: -200px;
-    left: 0;
-    z-index: 10;
-}
+/* footer {
+    width: 100%;
+    background: url('./images/Background-Footer.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
 
 .footer-background {
     width: 100%;
@@ -573,12 +566,7 @@ footer {
     background-size: cover;
     background-position: center -100px;  /* Negative value moves image up */
     background-repeat: no-repeat;
-    height: 100%;
-
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -10;
+    height: 100vh;
 }
 
 
