@@ -83,6 +83,10 @@ body {
     align-items: center;    
 }
 
+.wrapper .header-content .logo a {
+    text-decoration: none;
+}
+
 .wrapper .header-content .logo h2 {
     font-size: 3.2rem;
     color: var(--text-white);
