@@ -889,5 +889,8 @@ footer {
         margin-bottom: 32px;
     }
 
-   
-}
+    .features-section-1 .features-content .features-description:nth-last-child(1) {
+        margin-bottom: 0;
+    }
+
+    }
