@@ -752,6 +752,15 @@ footer {
     display: none;
 }
 
+.features-section-2 .wrapper br {
+    display: none;
+}
+
+.features-section-2 .wrapper h2 .break-desktop {
+    display: block;
+}
+
+
     /* Media Query */
 @media (max-width: 767px) {
     
@@ -870,7 +879,8 @@ footer {
         display: none;
     }
 
-    .features-section-1 .wrapper h2 {
+    .features-section-1 .wrapper h2,
+    .features-section-2 .wrapper h2 {
         font-size: 3.2rem;
         font-weight: 700;
         line-height: 100%;
@@ -908,5 +918,11 @@ footer {
     }
 
     /* Features Section 2 */
-    
+    .features-section-2 .wrapper h2 .break-mobile {
+        display: block;
+    }
+
+    .features-section-2 .wrapper h2 .break-desktop {
+        display: none;
+    }
 }
