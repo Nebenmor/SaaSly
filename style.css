@@ -885,5 +885,9 @@ footer {
         display: none;
     }
 
-    
+    .features-section-1 .features-content .features-description {
+        margin-bottom: 32px;
+    }
+
+   
 }
