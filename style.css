@@ -258,6 +258,10 @@ section .features-section {
     width: 100%;
     height: 48px;
     margin-bottom: 80px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .hero-section .brands img {
@@ -822,4 +826,6 @@ footer {
     .brands img.hide {
         display: none;
     }
+
+  
 }
