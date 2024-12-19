@@ -893,4 +893,9 @@ footer {
         margin-bottom: 0;
     }
 
+    .features-section-1 .features-content .features-description h3 {
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 110%;
     }
+}
