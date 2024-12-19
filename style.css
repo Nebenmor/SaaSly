@@ -748,6 +748,10 @@ footer {
     display: none;
 }    
 
+.features-section-1 {
+    display: none;
+}
+
     /* Media Query */
 @media (max-width: 767px) {
     
@@ -898,4 +902,11 @@ footer {
         font-weight: 700;
         line-height: 110%;
     }
+
+    .features-section-1 {
+        display: block;
+    }
+
+    /* Features Section 2 */
+    
 }
