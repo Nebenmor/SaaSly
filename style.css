@@ -260,6 +260,7 @@ section .features-section {
     margin-bottom: 80px;
 
     display: flex;
+    flex: 1;
     justify-content: space-between;
     align-items: center;
 }
@@ -823,9 +824,23 @@ footer {
         margin-left: 0;
     }
 
+    .brands {
+        margin-top: 56px;
+    }
+
     .brands img.hide {
         display: none;
     }
+    
+    .brands .brands-line-1 {
+        margin-right: 11px;
+    }
 
-  
+    .brands .brands-line-1 img {
+        margin-bottom: 44px;
+    }
+
+    .brands .brands-line-2 img {
+        margin-bottom: 44px;
+    }
 }
