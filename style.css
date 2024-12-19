@@ -49,6 +49,7 @@ body {
 
 
     min-height: 100vh;
+    min-width: 100vh;
     position: absolute;
     top: 0;
     left: 0;
@@ -138,6 +139,7 @@ body {
     font-size: 1.6rem;
     font-weight: 400;
     color: var(--text-white);
+
 }
 
 .header-buttons .button_sign-up {
@@ -153,8 +155,16 @@ body {
 }
 
 /* Hero Section */
-.hero-section .inner-wrapper {
-    margin: 80px 42px 0;
+/* section {
+    height: 100vh;
+}
+
+section .features-section {
+    height: 100%;
+} */
+
+.hero-section .wrapper .inner-wrapper {
+    margin: 130px 42px 0;
     width: 100%;
     max-width: 1016px; 
 }
@@ -175,7 +185,15 @@ body {
     padding-bottom: 24px;
 }
 
-span {
+/* span {
+    display: block;
+} */
+
+.hero-content br {
+    display: none;
+}
+
+.hero-content .break-desktop {
     display: block;
 }
 
@@ -202,6 +220,7 @@ span {
     font-weight: 700;
     line-height: 135%;
     color: var(--text-white);
+    cursor: pointer;
 
     padding: 20px 40px;
     border-radius: 10px;
@@ -213,6 +232,7 @@ span {
     font-weight: 700;
     line-height: 135%;
     color: var(--text-white);
+    cursor: pointer;
 
     padding: 20px 40px;
     border: 1px solid #fff;
@@ -579,25 +599,32 @@ section.articles-section {
 }
 
 /* Footer Section */
-footer {
+.footer-section-wrapper {
     position: relative;
+    width: 100%;
+}
+
+footer {
+    position: absolute;
     top: -200px;
     left: 0;
+    right: 0;
     z-index: 10;
+    margin-bottom: 0;
 }
 
 .footer-background {
     width: 100%;
-    background-image: url('./images/Background-Footer.png');  /* Update with your image path */
+    background-image: url('./images/Background-Footer.png');
     background-size: cover;
-    background-position: center -100px;  /* Negative value moves image up */
+    background-position: center;  /* Negative value moves image up */
     background-repeat: no-repeat;
     height: 100%;
 
     position: absolute;
     top: 0;
     left: 0;
-    z-index: -10;
+    z-index: -20;
 }
 
 
@@ -690,4 +717,109 @@ footer {
 .ruler hr {
     width: 100%;
     max-width: 1104px;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.mobile-h1 {
+    display: none;
+}
+
+.mobile-hero-p {
+    display: none;
+}
+
+
+    
+    
+    /* Media Query */
+@media (max-width: 767px) {
+    
+    
+    /* * {
+        border: solid;
+    } */
+    
+    .wrapper,
+    .hero-section .wrapper,
+    .hero-section .wrapper .inner-wrapper {
+        padding: 0;
+        width: auto;
+    }
+
+    .hero-section .wrapper .inner-wrapper {
+        margin: 110px 0 0 0;
+    }
+
+    .desktop-nav .wrapper .header-content .menu-items {
+        display: none;
+    }
+
+    .desktop-nav .wrapper .header-content .header-buttons {
+        display: none;
+    }
+
+    .desktop-nav {
+        width: calc(100% - 40px);
+        max-width: 375px;
+        padding-left: 20px;
+    }
+
+    .desktop-nav .wrapper .header-content .menu-icon {
+        display: block;
+        font-size: 3.2rem;
+        color: var(--text-white);
+        font-weight: 400;
+        cursor: pointer;
+    }
+
+    .desktop-nav .wrapper .header-content .menu-icon-bar {
+        margin-right: 20px;
+    }
+         
+    section {
+        width: 100%;
+        /* max-width: 375px; */
+        padding: 0 20px;
+    }
+
+    .inner-wrapper .hero-content h1 {
+        font-size: 4rem;
+        font-weight: 700;
+        line-height: 105%;
+        color: var(--text-white);
+    }
+
+    .hero-content .break-mobile {
+        display: block;
+    }
+
+     .hero-content .break-desktop {
+        display: none;
+    }
+
+    .hero-content .hero-buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+        gap: 12px;
+    }
+    
+    .hero-buttons a {
+        /* display: block; */
+        width: 100%;
+    }
+
+    .inner-wrapper .hero-content .hero-buttons a.trial {
+        margin-left: 0;
+    }
+
+    .brands img.hide {
+        display: none;
+    }
 }

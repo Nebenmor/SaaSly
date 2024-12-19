@@ -9,25 +9,31 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
     <!-- Custom CSS -->
-     <link rel="stylesheet" href="./github.css">
+     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="page-background">
-        <div class="wrapper">
+        
             <!-- Header -->
             <nav class="desktop-nav">
+             <div class="wrapper">
+               <div class="header-content">
                 <div class="logo">
-                    <h2>Saasly</h2>
+                    <a href="#"><h2>Saasly</h2></a>
+                </div>
+
+                <!-- Hamburger Menu -->
+                <div class="menu-icon-bar">
+                    <i class='bx bx-menu menu-icon'></i>
                 </div>
 
                 <ul class="menu-items">
                     <li><a href="#" class="active">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Pricing</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Jobs</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#socials">Socials</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#jobs">Jobs</a></li>
                     <li>
-                        <a href="#">Pages <i class='bx bx-chevron-down arrow-down'></i></a>   
+                        <a href="#pages">Pages <i class='bx bx-chevron-down arrow-down'></i></a>   
                     </li>
                 </ul>
 
@@ -35,125 +41,149 @@
                  <div class="header-buttons">
                     <a href="#" class="button_sign-in">Sign In</a>
                     <a href="#" class="button_sign-up">Sign Up</a>
-                 </div>     
+                 </div>
+                 
+                </div> 
+               </div>    
             </nav>
+
+        
             <!-- End of Header -->
+        
             
             <!-- Hero Section -->
-            <section class="hero-section">
-                <div class="inner-wrapper">
-                    <div class="hero-content">
-                        <h1>  
-                            <span>Advanced analytics to grow</span>
-                            <span>your business</span>    
-                        </h1>
+            <section id="home" class="hero-section">
+                <div class="page-background"></div>
+                <div class="wrapper">
+                    <div class="inner-wrapper">
+                        <div class="hero-content">
+                            <h1>  
+                                <span>Advanced analytics to grow</span>
+                                <span>your business</span>    
+                            </h1>
 
-                        <p>
-                            <span> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-                            <span>Diam ut id nisl tellus rhoncus, imperdiet</span>
-                        </p>
-                        <!-- Buttons -->
-                        <div class="hero-buttons">
-                            <a href="#" class="start-now">Start Now</a></li>
-                            <a href="#" class="trial">Trial <i class='bx bx-right-arrow-alt arrow-right'></i></a>
-                        </div>
-                        <!-- Hero Image -->
-                        <div class="hero-image">
-                            <img src="./images/Web Dashboard.png" alt="Web Dashboard">
-                        </div>
-                    </div>                   
-                </div>
+                            <div class="mobile-h1">
+                                <span>Advanced</span>
+                                <span> analytics to grow</span>
+                                <span>your business</span> 
+                            </div>
+                    
+                            <p>
+                                <span> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                                <span>Diam ut id nisl tellus rhoncus, imperdiet</span>
+                            </p>
 
-                <!-- Brands -->
-                <div class="brands">
-                    <img src="./images/Brands/Layers.svg" alt="Layers">
-                    <img src="./images/Brands/Quotient.svg" alt="Quotient">
-                    <img src="./images/Brands/Circooles.svg" alt="Circooles">
-                    <img src="./images/Brands/Hourglass.svg" alt="Hourglass">
-                    <img src="./images/Brands/Command.svg" alt="Command">
+                            <div class="mobile-hero-p">
+                                <span> Lorem ipsum dolor sit amet,</span> 
+                                <span>consectetur adipiscing elit. Diam </span>
+                                <span>ut id nisl tellus rhoncus, imperdiet</span>
+                            </div>
+                            <!-- Buttons -->
+                            <div class="hero-buttons">
+                                <a href="#" class="start-now">Start Now</a></li>
+                                <a href="#" class="trial">Trial <i class='bx bx-right-arrow-alt arrow-right'></i></a>
+                            </div>
+                            <!-- Hero Image -->
+                            <div class="hero-image">
+                                <img src="./images/Web Dashboard.png" alt="Web Dashboard">
+                            </div>
+                        </div>                   
+                    </div>
+                    
+                    <!-- Brands -->
+                    <div class="brands">
+                        <img src="./images/Brands/Layers.svg" alt="Layers">
+                        <img src="./images/Brands/Quotient.svg" alt="Quotient">
+                        <img src="./images/Brands/Circooles.svg" alt="Circooles">
+                        <img src="./images/Brands/Hourglass.svg" alt="Hourglass">
+                        <img src="./images/Brands/Command.svg" alt="Command">
+                    </div>
                 </div>
             </section>
+
             <!-- End of Hero Section -->
 
             <!-- Features Section -->
-             <section class="features-section">
-                <h2> <span>We make it easy to track all</span>
-                    <span>data analytics</span>
-                </h2>
-                <!-- features 1 -->
-                <div class="features-content">
-                    <div class="features-description">
-                        <!-- Timer Icon -->
-                        <i class='bx bx-timer '></i>
-
-                        <h3>Real Time Data Analytics</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-                            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-                            penatibus et magnis dis parturient montes, nascetur 
-                        </p>
-
-                        <div class="features-btn">
-                            <a href="#" class="btn_Learn-More">Learn More</a>
-                        </div>    
-                    </div>
-                    
-                    <img src="./images/features-img1.png" alt="Data Analytics Image">    
-                </div>                
-
-                <!-- features 2 -->
-                <div class="features-content">
-                    <img src="./images/features-img2.png" alt="Security Image">    
-
-                    <div class="features-description">
-                        <!-- Timer Icon -->
-                        <i class='bx bx-lock'></i>
-
-                        <h3>Safely Security</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-                            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-                            penatibus et magnis dis parturient montes, nascetur 
-                        </p>
-
-                        <div class="features-btn">
-                            <a href="#" class="btn_Learn-More">Learn More</a>
-                        </div>    
-                    </div>
-                </div>
-
-                <!-- features 3 -->
-                <div class="features-content">
-                    <div class="features-description">
-                        <!-- Timer Icon -->
+             <section id="about" class="features-section">
+                <div class="wrapper">
+                    <h2> <span>We make it easy to track all</span>
+                        <span>data analytics</span>
+                    </h2>
+                    <!-- features 1 -->
+                    <div class="features-content">
+                        <div class="features-description">
+                            <!-- Timer Icon -->
+                            <i class='bx bx-timer '></i>
+    
+                            <h3>Real Time Data Analytics</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                                commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+                                penatibus et magnis dis parturient montes, nascetur 
+                            </p>
+    
+                            <div class="features-btn">
+                                <a href="#" class="btn_Learn-More">Learn More</a>
+                            </div>    
+                        </div>
                         
-                        <i class='bx bx-desktop'></i>
-
-                        <h3>Multiple Platform</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-                            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-                            penatibus et magnis dis parturient montes, nascetur 
-                        </p>
-
-                        <div class="features-btn">
-                            <a href="#" class="btn_Learn-More">Learn More</a>
-                        </div>    
+                        <img src="./images/features-img1.png" alt="Data Analytics Image">    
+                    </div>                
+    
+                    <!-- features 2 -->
+                    <div class="features-content">
+                        <img src="./images/features-img2.png" alt="Security Image">    
+    
+                        <div class="features-description">
+                            <!-- Timer Icon -->
+                            <i class='bx bx-lock'></i>
+    
+                            <h3>Safely Security</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                                commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+                                penatibus et magnis dis parturient montes, nascetur 
+                            </p>
+    
+                            <div class="features-btn">
+                                <a href="#" class="btn_Learn-More">Learn More</a>
+                            </div>    
+                        </div>
                     </div>
-                    
-                    <img src="./images/features-img3.png" alt="Data Analytics Image">    
-                </div>
-
-                <div class="features-shape">
-                    <!-- <img src="./images/top-right-shape.png" alt="top-right-shape" class="top-right"> -->
-                    <img src="./images/bottom-left-shape.png" alt="bottom-left-shape" class="bottom-left">
+    
+                    <!-- features 3 -->
+                    <div class="features-content">
+                        <div class="features-description">
+                            <!-- Timer Icon -->
+                            
+                            <i class='bx bx-desktop'></i>
+    
+                            <h3>Multiple Platform</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                                commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+                                penatibus et magnis dis parturient montes, nascetur 
+                            </p>
+    
+                            <div class="features-btn">
+                                <a href="#" class="btn_Learn-More">Learn More</a>
+                            </div>    
+                        </div>
+                        
+                        <img src="./images/features-img3.png" alt="Data Analytics Image">    
+                    </div>
+    
+                    <div class="features-shape">
+                        <!-- <img src="./images/top-right-shape.png" alt="top-right-shape" class="top-right"> -->
+                        <img src="./images/bottom-left-shape.png" alt="bottom-left-shape" class="bottom-left">
+                    </div>
                 </div>
              </section>
              <!-- End of features section -->    
         </div>
 
         <!-- Social media section -->
-        <div class="social-media-section-container">
+        <div id="socials" class="social-media-section-container">
             <section class="social-media-section">
                 <h2 style="color: #FFFFFF">Integrated with Social Media</h2>
 
@@ -208,7 +238,7 @@
           <!-- End of featurs section -->
 
           <!-- Articles Section -->
-           <section class="articles-section">
+           <section id="blog" class="articles-section">
             <h2>Our article on groHw & tech</h2>
 
                 <div class="articles-content">
@@ -288,7 +318,7 @@
            <!-- End of Articles Section -->
 
            <!-- CTA Section -->
-            <section class="cta-section">
+            <section id="jobs" class="cta-section">
                 <div class="cta-section-content">
                     <h2 style="padding: 80px 0 24px 0; font-size: 40px;">Let's start growing your business</h2>
                     <p><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
@@ -306,7 +336,8 @@
             <!-- End of CTA Section -->
 
             <!-- Footer Section -->
-             <footer>
+             <div class="footer-section-wrapper">
+             <footer id="pages">
                 <div class="footer-background"></div>
                     <div class="footer-wrapper">
                         <div class="footer-container">
@@ -388,6 +419,8 @@
                     </div>
                 
              </footer>
-    </div>
+            </div>
+
+    <script src="./main.js" ></script>
 </body>
 </html>
