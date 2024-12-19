@@ -736,8 +736,14 @@ footer {
     display: none;
 }
 
+.features-section .wrapper h2 br {
+    display: none;
+}
 
-    
+.features-section .wrapper .break-desktop-f1 {
+    display: block;
+}
+
     
     /* Media Query */
 @media (max-width: 767px) {
@@ -843,4 +849,15 @@ footer {
     .brands .brands-line-2 img {
         margin-bottom: 44px;
     }
+
+    /* features-1 section */
+    .features-section .wrapper .break-mobile {
+        display: block;
+    }
+
+    .features-section .wrapper .break-desktop-f1 {
+        display: none;
+    }
+
+    
 }
