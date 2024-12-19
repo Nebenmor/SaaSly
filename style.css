@@ -880,5 +880,10 @@ footer {
         justify-content: center;
     }
 
+    .features-section-1 .features-content img,
+    .features-section-1 .features-content .features-description .features-btn {
+        display: none;
+    }
+
     
 }
