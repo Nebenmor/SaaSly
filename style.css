@@ -859,5 +859,9 @@ footer {
         display: none;
     }
 
-    
+    .features-section .wrapper h2 {
+        font-size: 3.2rem;
+        font-weight: 700;
+        line-height: 100%;
+    }
 }
