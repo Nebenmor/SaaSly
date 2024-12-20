@@ -1043,6 +1043,12 @@ footer {
         padding: 64px 20px;
     }
     
+    .articles {
+        flex-direction: column;
+        column-gap: 0;
+        row-gap: 48px;
+    }
+
     
     
 }
