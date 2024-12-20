@@ -1118,5 +1118,10 @@ footer {
         display: block;
     }
 
-    
+    .page-background {
+        background-position: center;
+    }
+}
+
+
 }
