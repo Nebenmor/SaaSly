@@ -1098,6 +1098,9 @@ footer {
     .footer-container {
         flex-direction: column;
     }
-
     
-}
+    .footer-wrapper {
+        padding: 200px 20px 64px
+    }
+
+    }
