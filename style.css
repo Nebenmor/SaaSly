@@ -1020,5 +1020,9 @@ footer {
         line-height: 100%;
     }
 
+    .social-media-section h2 .break-mobile {
+        display: block;
+    }
+
     
 }
