@@ -1024,5 +1024,11 @@ footer {
         display: block;
     }
 
+    .social-medias {
+        flex-direction: column;
+        row-gap: 40px;
+        column-gap: 0;
+    }
+
     
 }
