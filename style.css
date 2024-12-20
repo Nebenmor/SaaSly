@@ -1071,5 +1071,9 @@ footer {
         padding: 64px 20px 104px;
     }
 
+    .cta-section-content .break-desktop {
+        display: none;
+    }
+
     
 }
