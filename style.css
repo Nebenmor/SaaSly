@@ -488,7 +488,7 @@ section.articles-section {
 
 .article .article-img {
     width: 100%;
-    max-width: 351px;
+    /* max-width: 351px; */
 }
 
 .article .article-img img {
@@ -781,6 +781,10 @@ footer {
     display: none;
 }
 
+.articles-section h2 br {
+    display: none;
+}
+
     /* Media Query */
 @media (max-width: 767px) {
     
@@ -1033,4 +1037,12 @@ footer {
     .social-media h3 {
         font-size: 2rem;
     }
+
+    /* Article Section */
+    section.articles-section {
+        padding: 64px 20px;
+    }
+    
+    
+    
 }
