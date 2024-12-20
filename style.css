@@ -1015,5 +1015,10 @@ footer {
         padding: 200px 20px 250px;
     }
 
+    .social-media-section h2 {
+        font-size: 3.2rem;
+        line-height: 100%;
+    }
+
     
 }
