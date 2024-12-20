@@ -897,6 +897,7 @@ footer {
         font-size: 3.2rem;
         font-weight: 700;
         line-height: 100%;
+        padding-bottom: 0;
     }
 
     .features-section-1 .features-description .break-mobile {
@@ -947,6 +948,10 @@ footer {
 
     .order-img {
         order: -1;
+    }
+
+    .features-section-2 .features-description {
+        padding: 0;
     }
 
     .features-section-2 .features-content .features-description h3 {
