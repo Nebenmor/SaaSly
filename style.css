@@ -777,6 +777,10 @@ footer {
     display: none;
 }
 
+.social-media-section br {
+    display: none;
+}
+
     /* Media Query */
 @media (max-width: 767px) {
     
@@ -1005,4 +1009,11 @@ footer {
         top: 1150px;
         left: -3px;
     }
+
+    /* Social media section */
+    .social-media-section-container {
+        padding: 200px 20px 250px;
+    }
+
+    
 }
