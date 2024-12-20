@@ -994,5 +994,11 @@ footer {
         display: block;
     }
 
+    .features-section-1 .features-mobile-shape .mobile-long-pattern {
+        position: absolute;
+        top: 1064px;
+        left: 67px;
+    }
+
     
 }
