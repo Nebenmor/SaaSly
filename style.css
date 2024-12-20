@@ -785,6 +785,14 @@ footer {
     display: none;
 }
 
+.cta-section-content br {
+    display: none;
+}
+
+.cta-section-content .break-desktop {
+    display: block;
+}
+
     /* Media Query */
 @media (max-width: 767px) {
     
@@ -1057,5 +1065,11 @@ footer {
     .articles-section h2 .break-mobile {
         display: block;
     }
+    
+    /* CTA Section */
+    .cta-section {
+        padding: 64px 20px 104px;
+    }
+
     
 }
