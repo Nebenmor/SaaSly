@@ -1075,5 +1075,14 @@ footer {
         display: none;
     }
 
-    
+    .cta-section .cta-buttons {
+        margin-top: 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 28px;
+    }
+
+   
 }
