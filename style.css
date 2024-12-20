@@ -1054,6 +1054,8 @@ footer {
         line-height: 105%;
     }
 
-    
+    .articles-section h2 .break-mobile {
+        display: block;
+    }
     
 }
