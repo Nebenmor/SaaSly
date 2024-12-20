@@ -1123,5 +1123,17 @@ footer {
     }
 }
 
+/* EXTRA SMALL SCREEN */
+@media (min-width: 320px ){
+    .features-section-1 .features-mobile-shape .mobile-long-pattern {
+        position: absolute;
+        top: 1064px;
+        left: -80px;
+    }
 
+    .features-section-1 .features-mobile-shape .mobile-short-pattern {
+        position: absolute;
+        top: 1150px;
+        left: -70px;
+    }
 }
