@@ -1087,7 +1087,7 @@ footer {
     .cta-section .cta-buttons a.register-now,
     .cta-buttons a.contact-us {
         margin-left: 0;
-        margin-right: ;
+        margin-right: 0;
         width: 100%;
     }
 }
