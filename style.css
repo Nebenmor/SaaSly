@@ -1030,5 +1030,7 @@ footer {
         column-gap: 0;
     }
 
-    
+    .social-media h3 {
+        font-size: 2rem;
+    }
 }
