@@ -1084,5 +1084,10 @@ footer {
         row-gap: 28px;
     }
 
-   
+    .cta-section .cta-buttons a.register-now,
+    .cta-buttons a.contact-us {
+        margin-left: 0;
+        margin-right: ;
+        width: 100%;
+    }
 }
