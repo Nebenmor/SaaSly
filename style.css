@@ -1229,6 +1229,10 @@ footer {
         padding-top: 60px;
     }
 
+    section.articles-section {
+        padding: 0px 20px;
+    }
+
     
 }
 
