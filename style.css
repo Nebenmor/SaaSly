@@ -1216,6 +1216,11 @@ footer {
         font-size: 4rem;
     }
 
+    .features-section-2 .wrapper h2 {
+        font-size: 4rem;
+        padding-bottom: 0;
+    }
+
     
 }
 
