@@ -1208,6 +1208,9 @@ footer {
         margin-right: 20px;
     }
 
-    
-}
+    .features-content img {
+        max-width: 335px;
+    }
+
+    }
 
