@@ -1180,13 +1180,3 @@ footer {
         
     }
 }
-
-
-
-
-/* || 2XL */
-@media (min-width: 1536px) {
-    .footer-background {
-        top: 140px;
-    }
-}
