@@ -1212,5 +1212,10 @@ footer {
         max-width: 335px;
     }
 
+    .inner-wrapper .hero-content h1 {
+        font-size: 4rem;
     }
+
+    
+}
 
