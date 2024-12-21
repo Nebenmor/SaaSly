@@ -1221,6 +1221,9 @@ footer {
         padding-bottom: 0;
     }
 
-    
-}
+    .features-section-2 .wrapper .features-content {
+        gap: 40px;
+    }
+
+    }
 
