@@ -1196,6 +1196,13 @@ footer {
         padding-left: 20px;
     }
 
-    
-}
+    .desktop-nav .wrapper .header-content .menu-icon {
+        display: block;
+        font-size: 3.2rem;
+        color: var(--text-white);
+        font-weight: 400;
+        cursor: pointer;
+    }
+
+    }
 
