@@ -1237,5 +1237,10 @@ footer {
         padding: 203px 50px 40px 50px;
     }
 
+    .footer-container {
+        gap: 20px;
     }
+
+    
+}
 
