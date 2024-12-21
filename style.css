@@ -26,7 +26,7 @@
     padding: 0;
     box-sizing: border-box;
     /* border: solid; */
-}
+} 
 
 html {
     font-size: 62.5%; /* Makes 1rem = 10px */ 
@@ -164,7 +164,6 @@ section .features-section {
 
 .hero-section .wrapper .inner-wrapper {
     margin: 130px 42px 0;
-    width: 100%;
     max-width: 1016px; 
 }
 
@@ -796,14 +795,14 @@ footer {
     display: block;
 }
 
+.cta-section-content h2 {
+    padding: 80px 0 24px 0; 
+    font-size: 40px;
+}
+
     /* Media Query */
-@media (max-width: 767px) {
-    
-    
-    /* * {
-        border: solid;
-    } */
-    
+    /* || Mobile screens */
+@media (max-width: 767px) {   
     .wrapper,
     .hero-section .wrapper .inner-wrapper {
         padding: 0;
@@ -812,6 +811,10 @@ footer {
 
     .hero-section .wrapper {
         padding: 0 20px;
+    }
+
+    .desktop-nav .wrapper {
+        padding: 0;
     }
 
     .hero-section .wrapper .inner-wrapper {
@@ -1034,6 +1037,7 @@ footer {
     .social-media-section h2 {
         font-size: 3.2rem;
         line-height: 100%;
+        padding-top: 140px;
     }
 
     .social-media-section h2 .break-mobile {
@@ -1137,3 +1141,53 @@ footer {
         left: -70px;
     }
 }
+
+/* LAPTOP SCREENS */
+@media (max-width: 1279px ) {
+        .wrapper {
+        padding: 0 60px;
+    }
+
+    .social-media-section-container {
+        padding: 297px 20px;
+    }
+
+    section.articles-section {
+        padding: 0px 130px;
+    }
+
+    .social-media p, .article p {
+        margin-bottom: 15px;
+    }
+
+    .cta-section {
+        padding: 80px 0 191px 0;
+    }
+
+    .footer-wrapper {
+        padding-left: 203px 100px 40px 100px;
+    }
+
+    #footer-laptop {
+        margin-top: 0;
+    }
+
+    .cta-section-content h2 {
+        padding: 0;
+        font-size: 40px;
+    }
+
+    .footer-wrapper {
+        padding: 203px 60px 40px 60px;
+    }
+}
+
+/* || TABLETS AND IPADS */
+@media (max-width: 1023px) {
+    .desktop-nav .wrapper .header-content .menu-items {
+        display: none;
+    }
+
+    
+}
+
