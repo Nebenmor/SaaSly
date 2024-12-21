@@ -1188,6 +1188,10 @@ footer {
         display: none;
     }
 
+    .desktop-nav .wrapper .header-content .header-buttons {
+        display: none;
+    }
+
     
 }
 
