@@ -1204,5 +1204,10 @@ footer {
         cursor: pointer;
     }
 
+    .desktop-nav .wrapper .header-content .menu-icon-bar {
+        margin-right: 20px;
     }
+
+    
+}
 
