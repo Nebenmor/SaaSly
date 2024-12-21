@@ -1241,6 +1241,14 @@ footer {
         gap: 20px;
     }
 
+    .footer-wrapper .logo p {
+        font-size: 1.2rem;
+    }
+
+    .footer-nav ul li a {
+        font-size: 1.2rem;
+    }
+
     
 }
 
