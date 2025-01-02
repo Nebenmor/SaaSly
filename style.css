@@ -1258,6 +1258,7 @@ footer {
         width: 26%;
     }
         
+
     .features-content img {
         max-width: 335px;
     }
@@ -1316,7 +1317,7 @@ footer {
     }
 }
 
-/* || 2XL */
+/* || 2XL: Such as 4k monitors */
 @media (min-width: 1536px) {
     .footer-background {
         top: 140px;
